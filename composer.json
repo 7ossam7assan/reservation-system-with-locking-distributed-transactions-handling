@@ -1,0 +1,21 @@
+{
+    "name": "sayed/check24-task",
+    "authors": [
+        {
+            "name": "sayed Mohamed",
+            "email": "eng.sayed151@yahoo.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "symfony/var-dumper": "^5.3",
+        "illuminate/database": "^8.68"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App",
+            "Check24\\" : "src",
+            "database\\": "database"
+        }
+    }
+}
